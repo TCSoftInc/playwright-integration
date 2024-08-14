@@ -1,6 +1,6 @@
-# Selenium integration with Test Collab
+# Playwright integration with Test Collab
 
-This project demonstrates how to upload your selenium test report to Test Collab, with your CI/CD pipeline.
+This project demonstrates how to upload your playwright test report to Test Collab, with your CI/CD pipeline.
 
 ## Prepare your Test Collab instance
 
@@ -36,7 +36,7 @@ Next, create a new API key as explained here: https://help.testcollab.com/en/art
 
 ## Firing a test run
 
-Let's trigger our selenium test cases now (this will open chrome)
+Let's trigger our playwright test cases now (this will open chrome)
 
     npm run test
 
