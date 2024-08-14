@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "PLAYWRIGHT_JSON_OUTPUT_NAME=result.json npx playwright test",
+    "test": "npx playwright test",
     "createTestPlan": "node createTestPlan.js",
     "report": "source setenv.sh && source tmp/tc_test_plan && uploadTCRunResult --apiToken=$TESTCOLLAB_API_KEY --projectId=$TESTCOLLAB_PROJECT_ID --companyId=$TESTCOLLAB_COMPANY_ID --testPlanId=$TESTCOLLAB_TEST_PLAN_ID --mochaJsonResult=./mochawesome-report/mochawesome.json"
   },
