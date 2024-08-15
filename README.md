@@ -16,6 +16,8 @@ Next, create a new API key as explained here: https://help.testcollab.com/en/art
 
 ## Setup
 
+- node version: v20.15.1
+
 - Initialize env file  
 
     cp sample.env .env
@@ -36,11 +38,11 @@ Next, create a new API key as explained here: https://help.testcollab.com/en/art
 
 ## Firing a test run
 
-Let's trigger our playwright test cases now (this will open chrome)
+Let's trigger our playwright test cases now (this will open chrome, if ui mode is opted)
 
     npm run test
 
-Now we'll create a test plan in your Test Collab project.
+Now we'll create a test plan in your Test Collab project. (before this make sure that tmp folder exists)
 
     npm run createTestPlan
 
