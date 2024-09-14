@@ -1,6 +1,6 @@
 # Playwright integration with Test Collab
 
-This project demonstrates how to upload your playwright test report to Test Collab, with your CI/CD pipeline.
+This project demonstrates how to upload your playwright test report to  [Test Collab](https://testcollab.com) , with your CI/CD pipeline.
 
 ## Prepare your Test Collab instance
 
